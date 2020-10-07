@@ -1,0 +1,14 @@
+[2020-09-21 14:53:53,310] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: dag_homer_essay.wr_title 2020-07-14T00:00:00+00:00 [queued]>
+[2020-09-21 14:53:53,328] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: dag_homer_essay.wr_title 2020-07-14T00:00:00+00:00 [queued]>
+[2020-09-21 14:53:53,329] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-09-21 14:53:53,329] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-09-21 14:53:53,329] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-09-21 14:53:53,346] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): wr_title> on 2020-07-14T00:00:00+00:00
+[2020-09-21 14:53:53,350] {standard_task_runner.py:53} INFO - Started process 18408 to run task
+[2020-09-21 14:53:53,577] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: dag_homer_essay.wr_title 2020-07-14T00:00:00+00:00 [running]> b349191ed544
+[2020-09-21 14:53:53,607] {logging_mixin.py:112} INFO - El uso de Airflow en la universidad de Springfield.
+[2020-09-21 14:53:53,608] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-09-21 14:53:53,621] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=dag_homer_essay, task_id=wr_title, execution_date=20200714T000000, start_date=20200921T145353, end_date=20200921T145353
+[2020-09-21 14:54:03,296] {logging_mixin.py:112} INFO - [2020-09-21 14:54:03,296] {local_task_job.py:103} INFO - Task exited with return code 0

@@ -1,0 +1,19 @@
+[2020-09-20 16:00:08,523] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: dag_prueba.prueba_bash 2020-07-24T00:00:00+00:00 [queued]>
+[2020-09-20 16:00:08,537] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: dag_prueba.prueba_bash 2020-07-24T00:00:00+00:00 [queued]>
+[2020-09-20 16:00:08,537] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-09-20 16:00:08,537] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-09-20 16:00:08,537] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-09-20 16:00:08,546] {taskinstance.py:900} INFO - Executing <Task(BashOperator): prueba_bash> on 2020-07-24T00:00:00+00:00
+[2020-09-20 16:00:08,548] {standard_task_runner.py:53} INFO - Started process 22442 to run task
+[2020-09-20 16:00:08,632] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: dag_prueba.prueba_bash 2020-07-24T00:00:00+00:00 [running]> b349191ed544
+[2020-09-20 16:00:08,645] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-09-20 16:00:08,646] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmpwwxwe_5l/prueba_bashsf8p3vog
+[2020-09-20 16:00:08,646] {bash_operator.py:115} INFO - Running command: echo prueba_bash
+[2020-09-20 16:00:08,649] {bash_operator.py:122} INFO - Output:
+[2020-09-20 16:00:08,650] {bash_operator.py:126} INFO - prueba_bash
+[2020-09-20 16:00:08,650] {bash_operator.py:130} INFO - Command exited with return code 0
+[2020-09-20 16:00:08,658] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=dag_prueba, task_id=prueba_bash, execution_date=20200724T000000, start_date=20200920T160008, end_date=20200920T160008
+[2020-09-20 16:00:18,526] {logging_mixin.py:112} INFO - [2020-09-20 16:00:18,525] {local_task_job.py:103} INFO - Task exited with return code 0

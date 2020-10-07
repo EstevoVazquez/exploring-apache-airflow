@@ -1,0 +1,63 @@
+[2020-09-21 14:54:41,172] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: dag_homer_essay.wr_body 2020-07-16T00:00:00+00:00 [queued]>
+[2020-09-21 14:54:41,197] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: dag_homer_essay.wr_body 2020-07-16T00:00:00+00:00 [queued]>
+[2020-09-21 14:54:41,198] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-09-21 14:54:41,198] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-09-21 14:54:41,198] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-09-21 14:54:41,207] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): wr_body> on 2020-07-16T00:00:00+00:00
+[2020-09-21 14:54:41,210] {standard_task_runner.py:53} INFO - Started process 19078 to run task
+[2020-09-21 14:54:41,339] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: dag_homer_essay.wr_body 2020-07-16T00:00:00+00:00 [running]> b349191ed544
+[2020-09-21 14:54:41,358] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,358] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,358] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,358] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,358] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,359] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,360] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,361] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,361] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,361] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,361] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,361] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,361] {logging_mixin.py:112} INFO - Púdrete Flanders
+[2020-09-21 14:54:41,361] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-09-21 14:54:41,370] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=dag_homer_essay, task_id=wr_body, execution_date=20200716T000000, start_date=20200921T145441, end_date=20200921T145441
+[2020-09-21 14:54:51,146] {logging_mixin.py:112} INFO - [2020-09-21 14:54:51,146] {local_task_job.py:103} INFO - Task exited with return code 0

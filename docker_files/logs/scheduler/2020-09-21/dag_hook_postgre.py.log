@@ -1,0 +1,615 @@
+[2020-09-21 15:22:52,172] {scheduler_job.py:154} INFO - Started process (PID=38912) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:22:52,174] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:22:52,174] {logging_mixin.py:112} INFO - [2020-09-21 15:22:52,174] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:22:52,179] {logging_mixin.py:112} INFO - [2020-09-21 15:22:52,179] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:22:52,179] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:22:52,192] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.020 seconds
+[2020-09-21 15:23:04,345] {scheduler_job.py:154} INFO - Started process (PID=39034) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:04,352] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:23:04,354] {logging_mixin.py:112} INFO - [2020-09-21 15:23:04,353] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:04,362] {logging_mixin.py:112} INFO - [2020-09-21 15:23:04,361] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:23:04,363] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:04,379] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.034 seconds
+[2020-09-21 15:23:17,545] {scheduler_job.py:154} INFO - Started process (PID=39164) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:17,549] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:23:17,550] {logging_mixin.py:112} INFO - [2020-09-21 15:23:17,550] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:17,557] {logging_mixin.py:112} INFO - [2020-09-21 15:23:17,556] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:23:17,557] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:17,572] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.028 seconds
+[2020-09-21 15:23:30,778] {scheduler_job.py:154} INFO - Started process (PID=39294) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:30,783] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:23:30,784] {logging_mixin.py:112} INFO - [2020-09-21 15:23:30,784] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:30,791] {logging_mixin.py:112} INFO - [2020-09-21 15:23:30,790] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:23:30,791] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:30,806] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.029 seconds
+[2020-09-21 15:23:44,030] {scheduler_job.py:154} INFO - Started process (PID=39424) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:44,035] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:23:44,036] {logging_mixin.py:112} INFO - [2020-09-21 15:23:44,036] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:44,042] {logging_mixin.py:112} INFO - [2020-09-21 15:23:44,041] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:23:44,042] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:44,057] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.027 seconds
+[2020-09-21 15:23:57,221] {scheduler_job.py:154} INFO - Started process (PID=39555) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:57,223] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:23:57,223] {logging_mixin.py:112} INFO - [2020-09-21 15:23:57,223] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:57,226] {logging_mixin.py:112} INFO - [2020-09-21 15:23:57,225] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:23:57,226] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:23:57,236] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.015 seconds
+[2020-09-21 15:24:10,368] {scheduler_job.py:154} INFO - Started process (PID=39684) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:24:10,373] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:24:10,373] {logging_mixin.py:112} INFO - [2020-09-21 15:24:10,373] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:24:10,380] {logging_mixin.py:112} INFO - [2020-09-21 15:24:10,379] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:24:10,380] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:24:10,394] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.026 seconds
+[2020-09-21 15:24:23,614] {scheduler_job.py:154} INFO - Started process (PID=39814) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:24:23,617] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:24:23,617] {logging_mixin.py:112} INFO - [2020-09-21 15:24:23,617] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:24:23,623] {logging_mixin.py:112} INFO - [2020-09-21 15:24:23,621] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:24:23,623] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:24:23,634] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.021 seconds
+[2020-09-21 15:24:36,854] {scheduler_job.py:154} INFO - Started process (PID=39944) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:24:36,862] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:24:36,863] {logging_mixin.py:112} INFO - [2020-09-21 15:24:36,863] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:24:36,872] {logging_mixin.py:112} INFO - [2020-09-21 15:24:36,871] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:24:36,873] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:24:36,886] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.032 seconds
+[2020-09-21 15:24:49,994] {scheduler_job.py:154} INFO - Started process (PID=40074) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:24:49,995] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:24:49,996] {logging_mixin.py:112} INFO - [2020-09-21 15:24:49,996] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:24:49,999] {logging_mixin.py:112} INFO - [2020-09-21 15:24:49,998] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:24:49,999] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:24:50,009] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.015 seconds
+[2020-09-21 15:25:03,131] {scheduler_job.py:154} INFO - Started process (PID=40204) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:03,133] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:25:03,133] {logging_mixin.py:112} INFO - [2020-09-21 15:25:03,133] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:03,136] {logging_mixin.py:112} INFO - [2020-09-21 15:25:03,136] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:25:03,136] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:03,146] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.015 seconds
+[2020-09-21 15:25:16,249] {scheduler_job.py:154} INFO - Started process (PID=40334) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:16,255] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:25:16,256] {logging_mixin.py:112} INFO - [2020-09-21 15:25:16,255] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:16,265] {logging_mixin.py:112} INFO - [2020-09-21 15:25:16,263] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:25:16,265] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:16,280] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.031 seconds
+[2020-09-21 15:25:29,450] {scheduler_job.py:154} INFO - Started process (PID=40464) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:29,457] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:25:29,458] {logging_mixin.py:112} INFO - [2020-09-21 15:25:29,458] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:29,467] {logging_mixin.py:112} INFO - [2020-09-21 15:25:29,465] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:25:29,467] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:29,480] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.030 seconds
+[2020-09-21 15:25:42,647] {scheduler_job.py:154} INFO - Started process (PID=40594) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:42,654] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:25:42,655] {logging_mixin.py:112} INFO - [2020-09-21 15:25:42,655] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:42,663] {logging_mixin.py:112} INFO - [2020-09-21 15:25:42,662] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:25:42,663] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:42,678] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.031 seconds
+[2020-09-21 15:25:55,842] {scheduler_job.py:154} INFO - Started process (PID=40724) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:55,848] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:25:55,850] {logging_mixin.py:112} INFO - [2020-09-21 15:25:55,849] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:55,860] {logging_mixin.py:112} INFO - [2020-09-21 15:25:55,859] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:25:55,861] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:25:55,875] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.033 seconds
+[2020-09-21 15:26:09,008] {scheduler_job.py:154} INFO - Started process (PID=40854) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:26:09,009] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:26:09,009] {logging_mixin.py:112} INFO - [2020-09-21 15:26:09,009] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:26:09,012] {logging_mixin.py:112} INFO - [2020-09-21 15:26:09,012] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:26:09,012] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:26:09,023] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.015 seconds
+[2020-09-21 15:26:22,126] {scheduler_job.py:154} INFO - Started process (PID=40984) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:26:22,128] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:26:22,128] {logging_mixin.py:112} INFO - [2020-09-21 15:26:22,128] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:26:22,131] {logging_mixin.py:112} INFO - [2020-09-21 15:26:22,130] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:26:22,131] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:26:22,143] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.017 seconds
+[2020-09-21 15:26:35,327] {scheduler_job.py:154} INFO - Started process (PID=41114) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:26:35,331] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:26:35,332] {logging_mixin.py:112} INFO - [2020-09-21 15:26:35,332] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:26:35,341] {logging_mixin.py:112} INFO - [2020-09-21 15:26:35,339] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:26:35,341] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:26:35,356] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.029 seconds
+[2020-09-21 15:26:48,473] {scheduler_job.py:154} INFO - Started process (PID=41244) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:26:48,474] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:26:48,475] {logging_mixin.py:112} INFO - [2020-09-21 15:26:48,475] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:26:48,478] {logging_mixin.py:112} INFO - [2020-09-21 15:26:48,477] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:26:48,478] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:26:48,488] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.015 seconds
+[2020-09-21 15:27:01,681] {scheduler_job.py:154} INFO - Started process (PID=41375) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:01,683] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:27:01,683] {logging_mixin.py:112} INFO - [2020-09-21 15:27:01,683] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:01,687] {logging_mixin.py:112} INFO - [2020-09-21 15:27:01,686] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:27:01,687] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:01,696] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.015 seconds
+[2020-09-21 15:27:14,826] {scheduler_job.py:154} INFO - Started process (PID=41505) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:14,827] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:27:14,828] {logging_mixin.py:112} INFO - [2020-09-21 15:27:14,828] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:14,831] {logging_mixin.py:112} INFO - [2020-09-21 15:27:14,831] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:27:14,831] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:14,842] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.016 seconds
+[2020-09-21 15:27:27,968] {scheduler_job.py:154} INFO - Started process (PID=41634) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:27,970] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:27:27,970] {logging_mixin.py:112} INFO - [2020-09-21 15:27:27,970] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:27,973] {logging_mixin.py:112} INFO - [2020-09-21 15:27:27,972] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:27:27,973] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:27,983] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.015 seconds
+[2020-09-21 15:27:41,108] {scheduler_job.py:154} INFO - Started process (PID=41764) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:41,110] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:27:41,110] {logging_mixin.py:112} INFO - [2020-09-21 15:27:41,110] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:41,114] {logging_mixin.py:112} INFO - [2020-09-21 15:27:41,113] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:27:41,114] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:41,126] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.018 seconds
+[2020-09-21 15:27:54,259] {scheduler_job.py:154} INFO - Started process (PID=41894) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:54,261] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:27:54,261] {logging_mixin.py:112} INFO - [2020-09-21 15:27:54,261] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:54,264] {logging_mixin.py:112} INFO - [2020-09-21 15:27:54,264] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:27:54,264] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:27:54,274] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.015 seconds
+[2020-09-21 15:28:07,405] {scheduler_job.py:154} INFO - Started process (PID=42024) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:28:07,407] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:28:07,407] {logging_mixin.py:112} INFO - [2020-09-21 15:28:07,407] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:28:07,410] {logging_mixin.py:112} INFO - [2020-09-21 15:28:07,409] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:28:07,410] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:28:07,420] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.015 seconds
+[2020-09-21 15:28:20,584] {scheduler_job.py:154} INFO - Started process (PID=42154) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:28:20,588] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:28:20,588] {logging_mixin.py:112} INFO - [2020-09-21 15:28:20,588] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:28:20,594] {logging_mixin.py:112} INFO - [2020-09-21 15:28:20,593] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:28:20,594] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:28:20,607] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.023 seconds
+[2020-09-21 15:28:33,794] {scheduler_job.py:154} INFO - Started process (PID=42284) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:28:33,796] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:28:33,796] {logging_mixin.py:112} INFO - [2020-09-21 15:28:33,796] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:28:33,800] {logging_mixin.py:112} INFO - [2020-09-21 15:28:33,799] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:28:33,800] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:28:33,810] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.015 seconds
+[2020-09-21 15:28:46,946] {scheduler_job.py:154} INFO - Started process (PID=42414) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:28:46,948] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:28:46,949] {logging_mixin.py:112} INFO - [2020-09-21 15:28:46,949] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:28:46,954] {logging_mixin.py:112} INFO - [2020-09-21 15:28:46,953] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:28:46,955] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:28:46,967] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.021 seconds
+[2020-09-21 15:29:00,156] {scheduler_job.py:154} INFO - Started process (PID=42544) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:00,161] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:29:00,161] {logging_mixin.py:112} INFO - [2020-09-21 15:29:00,161] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:00,168] {logging_mixin.py:112} INFO - [2020-09-21 15:29:00,167] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:29:00,168] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:00,182] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.027 seconds
+[2020-09-21 15:29:13,388] {scheduler_job.py:154} INFO - Started process (PID=42674) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:13,395] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:29:13,396] {logging_mixin.py:112} INFO - [2020-09-21 15:29:13,396] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:13,404] {logging_mixin.py:112} INFO - [2020-09-21 15:29:13,403] {dagbag.py:239} ERROR - Failed to import: /opt/airflow/dags/dag_hook_postgre.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/local/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_hook_postgre.py", line 10, in <module>
+    'start_date': dates.days.ago(1)
+AttributeError: module 'airflow.utils.dates' has no attribute 'days'
+[2020-09-21 15:29:13,404] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:13,418] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.031 seconds
+[2020-09-21 15:29:26,607] {scheduler_job.py:154} INFO - Started process (PID=42804) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:26,613] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:29:26,614] {logging_mixin.py:112} INFO - [2020-09-21 15:29:26,614] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:26,616] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:26,616] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.009 seconds
+[2020-09-21 15:29:39,803] {scheduler_job.py:154} INFO - Started process (PID=42934) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:39,807] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:29:39,808] {logging_mixin.py:112} INFO - [2020-09-21 15:29:39,808] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:39,810] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:39,810] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.007 seconds
+[2020-09-21 15:29:52,925] {scheduler_job.py:154} INFO - Started process (PID=43065) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:52,928] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:29:52,928] {logging_mixin.py:112} INFO - [2020-09-21 15:29:52,928] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:52,929] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:29:52,930] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.005 seconds
+[2020-09-21 15:30:06,161] {scheduler_job.py:154} INFO - Started process (PID=43194) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:06,166] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:30:06,167] {logging_mixin.py:112} INFO - [2020-09-21 15:30:06,167] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:06,169] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:06,169] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.009 seconds
+[2020-09-21 15:30:19,406] {scheduler_job.py:154} INFO - Started process (PID=43324) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:19,409] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:30:19,409] {logging_mixin.py:112} INFO - [2020-09-21 15:30:19,409] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:19,410] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:19,411] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.005 seconds
+[2020-09-21 15:30:32,619] {scheduler_job.py:154} INFO - Started process (PID=43454) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:32,626] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:30:32,628] {logging_mixin.py:112} INFO - [2020-09-21 15:30:32,627] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:32,630] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:32,630] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.012 seconds
+[2020-09-21 15:30:45,845] {scheduler_job.py:154} INFO - Started process (PID=43584) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:45,851] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:30:45,852] {logging_mixin.py:112} INFO - [2020-09-21 15:30:45,851] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:45,853] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:45,854] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.009 seconds
+[2020-09-21 15:30:59,003] {scheduler_job.py:154} INFO - Started process (PID=43714) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:59,005] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:30:59,005] {logging_mixin.py:112} INFO - [2020-09-21 15:30:59,005] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:59,006] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:30:59,006] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.002 seconds
+[2020-09-21 15:31:12,214] {scheduler_job.py:154} INFO - Started process (PID=43844) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:31:12,218] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:31:12,219] {logging_mixin.py:112} INFO - [2020-09-21 15:31:12,219] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:31:12,221] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:31:12,221] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.008 seconds
+[2020-09-21 15:31:25,440] {scheduler_job.py:154} INFO - Started process (PID=43974) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:31:25,444] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:31:25,445] {logging_mixin.py:112} INFO - [2020-09-21 15:31:25,445] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:31:25,447] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:31:25,447] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.007 seconds
+[2020-09-21 15:31:38,681] {scheduler_job.py:154} INFO - Started process (PID=44104) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:31:38,687] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:31:38,689] {logging_mixin.py:112} INFO - [2020-09-21 15:31:38,688] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:31:38,691] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:31:38,691] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.011 seconds
+[2020-09-21 15:31:51,941] {scheduler_job.py:154} INFO - Started process (PID=44234) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:31:51,947] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:31:51,948] {logging_mixin.py:112} INFO - [2020-09-21 15:31:51,948] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:31:51,951] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:31:51,953] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.012 seconds
+[2020-09-21 15:32:05,045] {scheduler_job.py:154} INFO - Started process (PID=44364) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:32:05,047] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:32:05,047] {logging_mixin.py:112} INFO - [2020-09-21 15:32:05,047] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:32:05,048] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:32:05,048] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.003 seconds
+[2020-09-21 15:32:18,189] {scheduler_job.py:154} INFO - Started process (PID=44494) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:32:18,193] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:32:18,194] {logging_mixin.py:112} INFO - [2020-09-21 15:32:18,194] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:32:18,196] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:32:18,197] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.008 seconds
+[2020-09-21 15:32:31,349] {scheduler_job.py:154} INFO - Started process (PID=44624) to work on /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:32:31,351] {scheduler_job.py:1562} INFO - Processing file /opt/airflow/dags/dag_hook_postgre.py for tasks to queue
+[2020-09-21 15:32:31,351] {logging_mixin.py:112} INFO - [2020-09-21 15:32:31,351] {dagbag.py:396} INFO - Filling up the DagBag from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:32:31,352] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_hook_postgre.py
+[2020-09-21 15:32:31,352] {scheduler_job.py:162} INFO - Processing /opt/airflow/dags/dag_hook_postgre.py took 0.003 seconds
